@@ -1,6 +1,6 @@
 /*FLIP - CARD CSS*/
 body {
-    background-color: #333;
+    background-color: #171F18;
     margin: 0;
     width: 100%;
     height: 100%;
@@ -10,14 +10,16 @@ body {
     perspective: 700;
 }
 .card {
-    background: blue;
+    background: #15331F;
     width: 20vw;
     height: 20vh;
     margin: 0 auto;
-    transition: all 0.7s ease;
+    transition: all 0.6s ease;
     transform-style: preserve-3d;
+    border: 1px solid #09DEA9;
 }
 .card:hover {
-    transform: rotateY(180deg);
-    background: #BBB;
+    transition: all 0.9s ease;
+    transform: rotateY(180deg);    
+    background: #045930;
 }
